@@ -19,10 +19,20 @@
 
 @implementation ViewController
 
+NSString * const kMathFieldAccessibilityLabel = @"expression field";
+NSString * const kSolveButtonAccessibilityLabel = @"solve";
+
+NSString * const kResultFieldAccessibilityIdentifier = @"result field";
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.mathField.accessibilityLabel = kMathFieldAccessibilityLabel;
+    self.solveButton.accessibilityLabel = kSolveButtonAccessibilityLabel;
+    
+    self.resultField.accessibilityIdentifier = kResultFieldAccessibilityIdentifier;
 }
 
 - (IBAction)solveExpression:(UIButton *)sender {

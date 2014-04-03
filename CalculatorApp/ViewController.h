@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+extern NSString * const kMathFieldAccessibilityLabel;
+extern NSString * const kSolveButtonAccessibilityLabel;
+
+extern NSString * const kResultFieldAccessibilityIdentifier;
+
 @end
