@@ -1,0 +1,14 @@
+PODS:
+  - Subliminal (1.0.1)
+
+DEPENDENCIES:
+  - Subliminal (from `https://github.com/inkling/Subliminal.git`)
+
+EXTERNAL SOURCES:
+  Subliminal:
+    :git: https://github.com/inkling/Subliminal.git
+
+SPEC CHECKSUMS:
+  Subliminal: 050eff1582a4e59028a3f75e2805acbfd04267dd
+
+COCOAPODS: 0.31.1
