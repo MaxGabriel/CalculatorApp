@@ -29,10 +29,10 @@ NSString * const kResultFieldAccessibilityIdentifier = @"result field";
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    self.mathField.accessibilityLabel = kMathFieldAccessibilityLabel;
-    self.solveButton.accessibilityLabel = kSolveButtonAccessibilityLabel;
+//    self.mathField.accessibilityLabel = kMathFieldAccessibilityLabel;
+//    self.solveButton.accessibilityLabel = kSolveButtonAccessibilityLabel;
     
-    self.resultField.accessibilityIdentifier = kResultFieldAccessibilityIdentifier;
+//    self.resultField.accessibilityIdentifier = kResultFieldAccessibilityIdentifier;
 }
 
 - (IBAction)solveExpression:(UIButton *)sender {
